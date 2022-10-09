@@ -11,7 +11,7 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@3
+      - uses: actions/checkout@v3
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
